@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ширин и К — Контакты</title>
+  <meta name="description" content="Проектирование и производство УЗВ: механические фильтры, озонирование 10–100 г/ч, УФ‑обеззараживание, монтаж и пуск.">
+  <link rel="icon" href="assets/logo_fish.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="index.html" aria-label="Ширин и К">
+      <img class="logo" src="assets/logo_fish.jpg" alt="Ширин и К" />
+      <div class="brand-text">
+        <strong>Ширин и К</strong>
+        <small>УЗВ • Инжиниринг</small>
+      </div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Главная</a>
+      <a href="equipment.html">Оборудование</a>
+      <a href="ozonation.html">Озонирование</a>
+      <a href="uv.html">УФ обеззараживание</a>
+      <a href="services.html">Услуги</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <h1>Контакты</h1>
+    <p class="lead">Оставьте заявку — инженер свяжется с вами.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <form class="card" method="POST" action="mailto:yzv.shirin@mail.ru" enctype="text/plain">
+      <label>Имя <input class="i" type="text" name="name" placeholder="Ваше имя" required></label>
+      <label>Телефон или E‑mail <input class="i" type="text" name="contact" placeholder="+7 (919) 323-97-97" required></label>
+      <label>Сообщение <textarea class="i" name="message" rows="5" placeholder="Кратко опишите задачу"></textarea></label>
+      <button class="btn" type="submit">Отправить</button>
+    </form>
+    <div class="card card-contacts">
+      <h3>Контакты</h3>
+      <p><strong>Ширин и К</strong></p>
+      <p><strong>Телефон:</strong> <a href="tel:+79193239797">+7 (919) 323-97-97</a><br>
+         <strong>E‑mail:</strong> <a href="mailto:yzv.shirin@mail.ru">yzv.shirin@mail.ru</a><br>
+         <strong>Telegram:</strong> <a href="https://t.me/Uzveshnik_shiin" target="_blank" rel="noopener">@Uzveshnik_shiin</a></p>
+      <p>Работаем по всей России. Производим оборудование, озонирование и УФ‑решения.</p>
+      <img src="assets/equip_2.jpg" alt="Наши работы" class="rounded">
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>
+      <strong>Ширин и К</strong><br>
+      <small>© <span id="y"></span>. Все права защищены.</small>
+    </div>
+    <div class="contacts">
+      <a href="tel:+79193239797">+7 (919) 323-97-97</a>
+      <a href="mailto:yzv.shirin@mail.ru">yzv.shirin@mail.ru</a>
+      <a href="https://t.me/Uzveshnik_shiin" target="_blank" rel="noopener">@Uzveshnik_shiin</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
